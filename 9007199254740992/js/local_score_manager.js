@@ -32,3 +32,4 @@ LocalScoreManager.prototype.get = function () {
 LocalScoreManager.prototype.set = function (score) {
   this.storage.setItem(this.key, score);
 };
+
