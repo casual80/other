@@ -503,7 +503,7 @@ hr {
     float: left; }
 
 .game-explanation {
-  margin-top: 0px; }
+  margin-top: 50px; }
 
 @media screen and (max-width: 520px) {
   html, body {
