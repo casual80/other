@@ -10237,7 +10237,7 @@ for (var k = 0; k < b0.split(" AND ").length; k++) {
             }
             // Set the first button in categoryControls div to be the current category
             document.getElementById("categoryControls").children[0].click()
-            document.getElementById("extraInfo").innerHTML += "<small><p>There are " + elementCount + " elements, including " + hiddenCount + " hidden ones.</p><p>©2021-" + new Date().getFullYear() + ". All Rights Reserved. <a href='https://r74n.com'>R74n</a></p></small>";
+            document.getElementById("extraInfo").innerHTML += "<small><p>There are " + elementCount + " elements, including " + hiddenCount + " hidden ones.</p><p>©2021-" + new Date().getFullYear() + ". All Rights Reserved. <a href='https://r74n.com'>R74n</a></p></small></p><p>To Play on the Original Site <a href='https://sandboxels.r74n.com/'>Click Here</a></p></small>";
             selectElement(currentElement);
             focusGame();
             // For every button element, onkeyup="event.preventDefault()"
@@ -10281,7 +10281,9 @@ for (var k = 0; k < b0.split(" AND ").length; k++) {
 </head>
 
 <body>
-    <h1 class="pagetitle" id="pagetitle"><a href="https://R74n.com" class="backbutton" target="_blank">&lt;</a></h1>
+    <h1 class="pagetitle" id="pagetitle">
+    <a href="/html/main/main.html" class="backbutton">&lt;</a>
+    </h1>
     <div id="gameDiv">
         <div id="canvasDiv">
             <canvas id="game" width="800" height="600">
@@ -10309,7 +10311,7 @@ for (var k = 0; k < b0.split(" AND ").length; k++) {
                 <div id="categoryControls"></div>
                 <div id="elementControls"></div>
             </div>
-            <div id="extraInfo"><small><a href="controls.txt" target="_blank">Controls</a> • <a href="changelog.txt" target="_blank">Changelog</a> • <a href="https://docs.google.com/document/d/1R8xljj_J-K5oU-9y4louwplQmM-ZBvUfXmhbgj5LYdk/edit?usp=sharing" target="_blank">Feedback</a> • <a href="https://discord.gg/ejUc6YPQuS" target="_blank" style="text-shadow: 0px 2px 10px #FF00FF;">Discord</a></small></div>
+            <div id="extraInfo"><small><a href="controls.txt" target="_blank">Controls</a> • <a href="changelog.txt" target="_blank">Changelog</a></small></div>
         </div>
     </div>
 
