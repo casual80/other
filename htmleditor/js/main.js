@@ -163,7 +163,7 @@ buttonShare.addEventListener(
   function (event) {
     var dom = document.createElement("input");
     dom.value =
-      "http://mrdoob.com/projects/htmleditor/#B/" +
+    window.location.href + "#B/" +
       encode(codemirror.getValue());
     dom.style.width = "400px";
     dom.style.padding = "5px";
@@ -207,7 +207,7 @@ buttonAbout.addEventListener(
     dom.style.border = "0px";
     dom.style.textAlign = "center";
     dom.innerHTML =
-      '<h1>HTML EDITOR<\/h1><a href="https://github.com/mrdoob/htmleditor" target="_blank">Source code</a>.<br>Powered by <a href="http://codemirror.net/" target="_blank">CodeMirror ' +
+      '<h1>HTML EDITOR<\/h1><a href="https://github.com/lioxryt/other/tree/main/htmleditor" target="_blank">Source code</a>.<br>Powered by <a href="http://codemirror.net/" target="_blank">CodeMirror ' +
       CodeMirror.version +
       '</a> and <a href="http://esprima.org/" target="_blank">Esprima ' +
       esprima.version +
